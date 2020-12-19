@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+
+#nav {
+    display: flex;
+    border-radius: 20px;
+}
+
+
+
+#nav ul {
+    
+    display:flex;
+    background: black;
+    color: rgb(252, 217, 217);
+    text-align: center;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#nav ul li {
+    list-style: none;
+    width:100%;
+    text-align: center;
+    margin: auto 0;
+    font-size: large;
+}
+
+#nav ul img {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+
+#nav ul li a:hover {
+    color: salmon;
+}
+
+header {
+    width: 20%;
+}
+
+.footer {
+    clear: both;
+    height: 100px;
+    background-color: darkslategray;
+  }
