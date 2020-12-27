@@ -1,49 +1,144 @@
-body{
-    margin: 0;
+/* RESET CSS FILE*/
+/* Highly recommended to reset the standard properties from the browser to avoid conflicts between our CSS and browser pre-defined settings*/
+/* Without this the margin from the ul block will appear on CH browser*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
 
-#nav {
-    display: flex;
-    border-radius: 20px;
+body {
+    line-height: 1;
+    background-image: url(/images/169.jpg);
+    background-color: burlywood; /*Used as a fallback, in case image won't load for some unknown reason*/
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: 200px 200px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
+/* Navigation + header bar configuration */
 
+nav {
+    padding: 8px;
+    display: block;
+    border-radius: 0px;
+    background-color: black;
 
-#nav ul {
-    
+}
+
+nav ul {
     display:flex;
-    background: black;
-    color: rgb(252, 217, 217);
+    background: transparent;
     text-align: center;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 0px;
 }
 
-#nav ul li {
+.navMenu {
+    width: 100%;
+    display: flex;
+}
+
+.navMenu li {
     list-style: none;
-    width:100%;
+    width:25%;
     text-align: center;
     margin: auto 0;
     font-size: large;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-#nav ul img {
+
+.navMenu li a {
+    text-decoration: none; /*Removes underline below the nav items*/
+    color: brown;
+}
+
+
+nav ul img {
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom:0px;
 }
 
-#nav ul li a:hover {
-    color: salmon;
+.navMenu li:hover{
+    background-color: rgb(127, 245, 245);
+}
+
+.navMenu li a:hover{
+    background-color: rgb(127, 245, 245);
+    color: black;
+    
 }
 
 header {
     width: 20%;
+    background-color: transparent;
 }
 
-.footer {
+/* Main configuration instructions*/
+
+.countryName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countryName h1 {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.recipe {
+    display: flex;
+}
+
+
+
+/* Footer configuration instructions*/
+
+footer {
     clear: both;
     height: 100px;
     background-color: darkslategray;
+    text-align: center;
   }
+  
