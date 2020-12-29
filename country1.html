@@ -6,6 +6,7 @@
     <link href="css/smalldefault.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/91b5cd2881.js" crossorigin="anonymous"></script>
     <title>Country Recipe</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
     <nav class="clearfix">
         <ul>
             <div class="logo">
-                <img src="./images/logo_oficial.png" width="90" height="90" alt="logo">
+                <a href="index.html"><img src="./images/logo_oficial.png" width="90" height="90" alt="logo"></a>
             </div>
             <div class="navMenu">
                 <li><a href=index.html>Mainpage</a></li>
@@ -26,41 +27,55 @@
 
     <main>
         <div class="countryName">
-            <div class="flag">
-                <img src="/images/portugal.png" alt="portugal">
+            <div class="mainPic">
+                <img src="/images/lisboa.jpg" class="countryPicture" alt="portugal">
             </div>
 
-            <h1>Portugal!</h1>
-
-        </div>
-
-        <div class="countryPicture">
+            <div class="nameCountry">
+                <h1>Portugal</h1>
+            </div>
+            
 
         </div>
 
         <div class="recipe">
             <div class="drinkPicture">
-                <img src="/images/sangria.jpg" alt="sangria">
+                <img src="/images/sangria.jpg" class="drinkPic" alt="sangria">
             </div>
 
             <div class="drinkRecipe">
-                <h1>Portuguese Sangria</h1>
+                <div class="title">
+                    <h1>Portuguese Sangria</h1>
+                </div>
+                
                 <br>
+
                 <h2>Ingredients:</h2>
 
-                <ul>
-                    <li>Wine (1Lt.)</li>
-                    <li>raspberries (250gr)</li>
-                    <li>Cinamon</li>
-                    <li>Ice</li>
-                </ul>
+                <div class="ingredients">
+                    <ul>
+                        <li>Wine (1Lt.)</li>
+                        <li>raspberries (250gr)</li>
+                        <li>Cinamon</li>
+                        <li>Ice</li>
+                    </ul>
+                </div>
 
-                <ol>
-                    <li>Mix the raspberries with the cinamon</li>
-                    <li>Merge the misture with the wine and shake it</li>
-                    <li>Add the ice right before it goes to be consume</li>
-                    <li>Enjoy!</li>
-                </ol>
+
+                <br>
+                <br>
+
+                <h2>Directions:</h2>
+
+                <div class="directions">
+                    <ol type="1" start="1">
+                        <li>Mix the raspberries with the cinamon</li>
+                        <li>Merge the misture with the wine and shake it</li>
+                        <li>Add the ice right before it goes to be consume</li>
+                        <li>Enjoy!</li>
+                    </ol>
+                </div>
+                
 
             </div>
 
@@ -72,7 +87,28 @@
     </main>
 
     <footer>
-        <p>Drink Carefully</p>
+        <div class="drinkCarefully">
+            <img src="./images/drivesafe.png" alt="driveSafe">
+        </div>
+
+        <div class="socialBox">
+            <h2>Contact us!</h2>
+
+            <div class="socialMedia">
+            
+                <ul>
+                    <li><i class="fab fa-facebook-square"></i></li>
+                    <li><i class="fab fa-instagram-square"></i></li>
+                    <li><i class="fab fa-twitter-square"></i></li>
+                    <li><i class="fab fa-pinterest-square"></i></li>
+                    <li><i class="fab fa-github-square"></i></li>
+                </ul>
+                
+            </div>
+        </div>
+
+
+        
     </footer>
 
 
