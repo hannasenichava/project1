@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Do not LIE statement (TELLS THE SMARTPHONES TO NOT LIE ABOUT THEIR WIDTH)
+    content="width-device-width": report your width as the device width and not a fake number and then set the intial scale as 100% (initial-scale=1)
+    maximum-scale=1 : it's a constraint. will not allow users to zoom in (a well designed web page will never require for the user to zoom in)-->
+    <meta name="viewport" content="width-device-width, initial-scale=1, maximum-scale=1">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
     <link href="css/smalldefault.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/medium.css" type="text/css" />
+    <link rel="stylesheet" href="css/large.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/91b5cd2881.js" crossorigin="anonymous"></script>
@@ -11,7 +17,7 @@
 </head>
 <body>
 
-    <nav class="clearfix">
+    <nav onclick="toggleMenu();">
         <ul>
             <div class="logo">
                 <a href="index.html"><img src="./images/logo_oficial.png" width="90" height="90" alt="logo"></a>
@@ -23,6 +29,11 @@
                 <li><a href=about.html>About Us!</a></li>
             </div>
         </ul>
+        <div class="hamburguerMenu" onClick="toggleMenu();">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </nav>
 
     <main>
@@ -109,13 +120,11 @@
 
 
         
-    </footer>
-
-
-
-   
-
-
-    
+    </footer>    
 </body>
+<script>
+    function toggleMenu(){
+        
+    }
+</script>
 </html>
