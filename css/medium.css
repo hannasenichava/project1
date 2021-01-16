@@ -1,5 +1,4 @@
-@media only screen and (max-width: 559px){
-
+@media only screen and (min-width: 560px) and (max-width:1139px) {
 
  /*Resets iphone and microsoft phone so that they don't change size or orientation*/
 html {
@@ -27,7 +26,7 @@ nav {
 }
 
 .hamburguerMenu {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -45,21 +44,23 @@ nav {
     background-color: rgb(127, 245, 245);
 }
 
+@media only screen and (max-width: 800px){
+    .hamburguerMenu {
+        display: flex;
+    }
+}
+
 nav ul {
     display:flex;
     background: transparent;
     text-align: center;
-    width: 30%;
+    width: 100%;
     border-radius: 0px;
 }
 
 .navMenu {
-    width: 25%;
-    display: none;
-}
-
-.showNavMenu {
-    display: block;
+    width: 100%;
+    display: flex;
 }
 
 .navMenu li {
@@ -105,13 +106,10 @@ header {
 
 .countryName {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 10px;
 }
-
-
 
 .nameCountry h1 {
     font-family: 'Luckiest Guy', cursive;
@@ -132,9 +130,6 @@ header {
 
 .recipe {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: burlywood;
 
     margin: 10px 10px 10px 10px;
@@ -162,7 +157,7 @@ header {
 
 .drinkPicture {
     padding: 10px;
-    /*width: 50%;*/
+    width: 30%;
 }
 
 .drinkPic {
@@ -176,8 +171,7 @@ header {
 
 .mainPic {
     width: 50%;
-    justify-content: center;
-    align-items: center;
+    padding-right: 100px;
 }
 
 .countryPicture {
@@ -199,15 +193,14 @@ footer {
 
 .drinkCarefully {
     text-align: center;
-    width: 50%;
+    width: 70%;
     padding-top: 20px;
 }
 
 .socialBox{
-    color: red;
-    width: 50%;
+    width: 30%;
     padding-top: 10px;
-    font-size: medium;
+    font-size: large;
 }
 
 .socialMedia li {
