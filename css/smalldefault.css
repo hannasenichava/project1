@@ -20,10 +20,24 @@ body {
 
 nav {
     padding: 8px;
-    display: flex;
+    display: block;
     border-radius: 0px;
     background-color: darkslategray;
 
+}
+
+.ulDiv {
+    display: inline-block;
+}
+
+#selects{
+    display: none;
+}
+
+.hamburguerDiv {
+    display: inline-block;
+    padding-top: 40px;
+    padding-left: 30px;
 }
 
 .hamburguerMenu {
@@ -42,7 +56,9 @@ nav {
 }
 
 .hamburguerMenu:hover{
-    background-color: rgb(127, 245, 245);
+    border-width: 2px;
+    border-color: #ccc;
+    background-color: red;
 }
 
 nav ul {
@@ -70,6 +86,7 @@ nav ul {
     font-size: large;
     padding-top: 20px;
     padding-bottom: 20px;
+    cursor: pointer;
 }
 
 
@@ -128,6 +145,27 @@ header {
     align-items: center;
     justify-content: center;
     padding: 15px;
+}
+
+#newNav li {
+    padding: 5px 20px;
+    margin: 5px 0px;
+    border-color: darkgray;
+    border-width: medium;
+    color: red;
+    font-size: large;
+    font-weight: bold;
+    background-color: darkslategray;
+    cursor: pointer;
+}
+
+#newNav li a{
+    text-decoration: none;
+    color: black;
+}
+
+#newNav li:hover {
+    background-color: darkturquoise;
 }
 
 .recipe {

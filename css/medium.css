@@ -44,10 +44,8 @@ nav {
     background-color: rgb(127, 245, 245);
 }
 
-@media only screen and (max-width: 800px){
-    .hamburguerMenu {
-        display: flex;
-    }
+#selects{
+    display: none;
 }
 
 nav ul {
@@ -69,6 +67,7 @@ nav ul {
     text-align: center;
     margin: auto 0;
     font-size: large;
+    font-weight: bolder;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -95,6 +94,10 @@ nav ul img {
     background-color: rgb(127, 245, 245);
     color: black;
     
+}
+
+#divInsideSelects {
+    display: none;
 }
 
 header {
