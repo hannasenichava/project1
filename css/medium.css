@@ -1,10 +1,10 @@
 @media only screen and (min-width: 560px) and (max-width:1139px) {
 
  /*Resets iphone and microsoft phone so that they don't change size or orientation*/
-html {
+/* html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-}
+} */
 
 
 body {
@@ -178,62 +178,7 @@ header {
     width: 100%;
     border-radius: 20px;
 }
-/* 
-.partyGame {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-}
 
-.partyPic {
-    width: 30%;
-    justify-content: center;
-    align-items: center;
-}
-
-.partyPicture {
-    width: 100%;
-    border-radius: 20px;
-}
-
-.rules {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: burlywood;
-    margin: 10px 10px 10px 10px;
-}
-
-.partyRules {
-    margin: 10px 10px 10px 10px;
-}
-
-.partyRules h1 {
-    font-family: 'Luckiest Guy', cursive;
-    font-size: x-large;
-    text-align: center;
-    margin: 10px 10px 10px 10px;
-}
-
-.partyRules h2 {
-    font-family: 'Luckiest Guy', cursive;
-    font-size: large;
-    margin: 10px 10px 10px 10px;
-}
-
-.partyRules p {
-    font-size: small;
-    margin: 10px 10px 10px 10px;
-}
-
-.partyRules{
-    text-align: center;
-    padding: 5px;
-    width: 70%;
-} */
 
 .contributtion {
     display: flex;
@@ -262,8 +207,49 @@ header {
     width: 100%;
     border-radius: 20px;
 }
+
+.partyGame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    margin: 10px 10px 10px 10px;
+}
+
+.container h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: x-large;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.container h2 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: large;
+    margin: 10px 10px 10px 10px;
+}
+
+.container p {
+    font-size: small;
+    margin: 10px 10px 10px 10px;
+}
+
+img {
+    max-width: 200px;
+}
+
+.imgkings {
+    max-width: 900px;
+}
 
 /* Footer configuration instructions*/
 
@@ -275,8 +261,8 @@ footer {
     background-color: darkslategray;
     text-align: center;
     bottom: 0;
-    position: fixed
-    
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .drinkCarefully {
@@ -286,8 +272,8 @@ footer {
 }
 
 .socialBox{
-    width: 30%;
-    padding-top: 10px;
+    width: 50%;
+    padding-top: 5px;
     font-size: large;
 }
 
@@ -296,7 +282,7 @@ footer {
     display: inline-block;
     font-size: 30px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 }

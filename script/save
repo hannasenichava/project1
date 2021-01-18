@@ -98,3 +98,68 @@
     }
 </script>
 </html>
+
+
+
+
+//
+
+css
+
+
+/* 
+.partyGame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.partyPic {
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.partyPicture {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.rules {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    margin: 10px 10px 10px 10px;
+}
+
+.partyRules {
+    margin: 10px 10px 10px 10px;
+}
+
+.partyRules h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: x-large;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.partyRules h2 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: large;
+    margin: 10px 10px 10px 10px;
+}
+
+.partyRules p {
+    font-size: small;
+    margin: 10px 10px 10px 10px;
+}
+
+.partyRules{
+    text-align: center;
+    padding: 5px;
+    width: 70%;
+} */
