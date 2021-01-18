@@ -1,34 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Do not LIE statement (TELLS THE SMARTPHONES TO NOT LIE ABOUT THEIR WIDTH)
+    content="width-device-width": report your width as the device width and not a fake number and then set the intial scale as 100% (initial-scale=1)
+    maximum-scale=1 : it's a constraint. will not allow users to zoom in (a well designed web page will never require for the user to zoom in)-->
+    <meta name="viewport" content="width-device-width, initial-scale=1, maximum-scale=1">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
     <link href="css/smalldefault.css" rel="stylesheet" type="text/css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/medium.css" type="text/css" />
+    <link rel="stylesheet" href="css/large.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/91b5cd2881.js" crossorigin="anonymous"></script>
+    <title>Country Recipe</title>
 </head>
 <body>
 
-    <div>
-        <header>
-
-        </header>
-    </div>
-
-    <div id="nav">
+    <nav onclick="toggleMenu();">
         <ul>
-            <li><a href=index.html>Mainpage</a></li>
-            <li><a href=party.html>Party Games</a></li>
-            <li><a href=contributtion.html>Contributtion</a></li>
-            <li><a href=about.html>About Us!</a></li>
+            <div class="logo">
+                <a href="index.html"><img src="./images/logo_oficial.png" width="90" height="90" alt="logo"></a>
+            </div>
+            <div class="navMenu">
+                <li><a href=index.html>Mainpage</a></li>
+                <li><a href=party.html>Party Games</a></li>
+                <li><a href=contributtion.html>Contributtion</a></li>
+                <li><a href=about.html>About Us!</a></li>
+            </div>
         </ul>
-    </div>
-    <br/>
+        <div class="hamburguerMenu" onClick="toggleMenu();">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
 
-    
+    <main>
+        <div class="partyGame">
+            <div class="partyPic">
+                <img src="/images/party.jpg" class="partyPicture" alt="party">
+            </div>
 
-   
+
+            
+
+        </div>
+
+        <div class="rules">
+            <div class="partyRules">
+            <h1>Never Have I Ever!</h1>
+            <h2>What you need: Drinks!</h2>
+                <p>Never Have I Ever is a great game to know your friends' secrets! You have to share something that you have never done before and the people who have will take a sip of their drink. For example, when I say, "Never have I ever been arrested," all those in the group who have been arrested will have a drink. The key here is to make your friends admit their embarrassing stories so watch out for what you say!</p>
+            <h1>Drunk Jenga!</h1>
+            <h2>What you need: Jenga and Drinks! </h2>
+                <p>Drunk Jenga is like normal Jenga but with funny and crazy challenges written on each of the 54 Jenga blocks. The trick is to pick up one block from the set pile of blocks with one hand and place it on top of the pile. If the stack falls, you chug your drink and pick up two blocks and complete the challenges.</p>
+            <h1>Flip Cup!</h1>
+            <h2>What you need: Cups and Drinks!</h2>
+            <p>Flip Cup is a good starter for a house party. There are two teams competing against each other. Both teams stand on opposite sides of the table and keep their cups with drinks at the edge. Everyone must finish their drink and flip the cup with there fingers to the upside-down position before the next member begins. First team to complete this wins.</p>
+            
+            </div>
+        </div>
 
 
-    
+
+    </main>
+
+    <footer>
+        <div class="drinkCarefully">
+            <img src="./images/drivesafe.png" alt="driveSafe">
+        </div>
+
+        <div class="socialBox">
+            <h2>Contact us!</h2>
+
+            <div class="socialMedia">
+            
+                <ul>
+                    <li><i class="fab fa-facebook-square"></i></li>
+                    <li><i class="fab fa-instagram-square"></i></li>
+                    <li><i class="fab fa-twitter-square"></i></li>
+                    <li><i class="fab fa-pinterest-square"></i></li>
+                    <li><i class="fab fa-github-square"></i></li>
+                </ul>
+                
+            </div>
+        </div>
+
+
+        
+    </footer>    
 </body>
+<script>
+    function toggleMenu(){
+        
+    }
+</script>
 </html>
