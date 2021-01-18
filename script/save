@@ -39,17 +39,29 @@
 
     <main>
         <div class="partyGame">
-            <select id="partySelection">
-            <option value="all">All Partys!</option>
-            <option value="neverEver">Never Have I Ever!</option>
-            <option value="drunkJenga">Drunk Jenga!</option>
-            <option value="flipCup">Flip Cup!</option>
-          </select>
+            <div class="partyPic">
+                <img src="/images/party.jpg" class="partyPicture" alt="party">
+            </div>
+
+
+            
+
         </div>
-          <h1>qlqr coisa</h1>
-          <ul id="partyList"></ul> 
-          <div id="container"></div>
-          <script src="/script/partyscript.js"></script>
+
+        <div class="rules">
+            <div class="partyRules">
+            <h1>Never Have I Ever!</h1>
+            <h2>What you need: Drinks!</h2>
+                <p>Never Have I Ever is a great game to know your friends' secrets! You have to share something that you have never done before and the people who have will take a sip of their drink. For example, when I say, "Never have I ever been arrested," all those in the group who have been arrested will have a drink. The key here is to make your friends admit their embarrassing stories so watch out for what you say!</p>
+            <h1>Drunk Jenga!</h1>
+            <h2>What you need: Jenga and Drinks! </h2>
+                <p>Drunk Jenga is like normal Jenga but with funny and crazy challenges written on each of the 54 Jenga blocks. The trick is to pick up one block from the set pile of blocks with one hand and place it on top of the pile. If the stack falls, you chug your drink and pick up two blocks and complete the challenges.</p>
+            <h1>Flip Cup!</h1>
+            <h2>What you need: Cups and Drinks!</h2>
+            <p>Flip Cup is a good starter for a house party. There are two teams competing against each other. Both teams stand on opposite sides of the table and keep their cups with drinks at the edge. Everyone must finish their drink and flip the cup with there fingers to the upside-down position before the next member begins. First team to complete this wins.</p>
+            
+            </div>
+        </div>
 
 
 
