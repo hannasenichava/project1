@@ -359,17 +359,21 @@ const hip = [
             const h1 = document.createElement('h1');
             const h2 = document.createElement('h2');
             const p = document.createElement('p');
+            const imgkings = document.createElement('img');
 
             img.src = pts.img;
             h1.innerText = pts.name;
             h2.innerText = pts.recipe;
             p.innerText = pts.rules;
+            imgkings.src = pts.imgkings;
+            imgkings.classList.add("imgkings")
 
             partyLi.appendChild(li);
             partyLi.appendChild(img);
             partyLi.appendChild(h1);
             partyLi.appendChild(h2);
             partyLi.appendChild(p);
+            partyLi.appendChild(imgkings);
             
     
         })
