@@ -58,7 +58,49 @@ nav {
 .hamburguerMenu:hover{
     border-width: 2px;
     border-color: #ccc;
-    background-color: red;
+    cursor: pointer;
+}
+
+.languageSelector{
+    display: flex;
+    width: 120px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+    float: right;
+}
+
+.portugalSel {
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+}
+
+.portPic {
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.portPic:hover{
+    cursor: pointer;
+}
+
+.brasPic {
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.brasPic:hover{
+    cursor: pointer;
+}
+
+.brasilSel {
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    margin-left: 10px;
 }
 
 nav ul {

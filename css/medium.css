@@ -25,23 +25,45 @@ nav {
 
 }
 
-.hamburguerMenu {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.languageSelector{
+    display: flex;
+    width: 120px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
 }
 
-.hamburguerMenu span{
-    display: block;
-    height: 2px;
-    width: 20px;
-    margin: 2px;
-    background: #ccc;
+.portugalSel {
+    display: inline-block;
+    width: 40px;
+    height: 30px;
 }
 
-.hamburguerMenu:hover{
-    background-color: rgb(127, 245, 245);
+.portPic {
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.portPic:hover{
+    cursor: pointer;
+}
+
+.brasPic {
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.brasPic:hover{
+    cursor: pointer;
+}
+
+.brasilSel {
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    margin-left: 10px;
 }
 
 #selects{
