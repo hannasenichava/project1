@@ -1,34 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Do not LIE statement (TELLS THE SMARTPHONES TO NOT LIE ABOUT THEIR WIDTH)
+    content="width-device-width": report your width as the device width and not a fake number and then set the intial scale as 100% (initial-scale=1)
+    maximum-scale=1 : it's a constraint. will not allow users to zoom in (a well designed web page will never require for the user to zoom in)-->
+    <meta name="viewport" content="width-device-width, initial-scale=1, maximum-scale=1">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
     <link href="css/smalldefault.css" rel="stylesheet" type="text/css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/medium.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="css/large.css" type="text/css" /> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/91b5cd2881.js" crossorigin="anonymous"></script>
+    <title>Country Recipe</title>
 </head>
 <body>
 
-    <div>
-        <header>
-
-        </header>
-    </div>
-
-    <div id="nav">
+    <nav onclick="toggleMenu();">
         <ul>
-            <li><a href=index.html>Mainpage</a></li>
-            <li><a href=party.html>Party Games</a></li>
-            <li><a href=contributtion.html>Contributtion</a></li>
-            <li><a href=about.html>About Us!</a></li>
+            <div class="logo">
+                <a href="index.html"><img src="./images/logo_oficial.png" width="90" height="90" alt="logo"></a>
+            </div>
+            <div class="navMenu">
+                <li><a href=index.html>Mainpage</a></li>
+                <li><a href=party.html>Party Games</a></li>
+                <li><a href=contributtion.html>Contributtion</a></li>
+                <li><a href=about.html>About Us!</a></li>
+            </div>
         </ul>
-    </div>
-    <br/>
+        <div class="hamburguerMenu" onClick="toggleMenu();">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
 
-    
+    <main>
+        <div class="container">
+        <div class="partyGame">
+            <select id="partySelection">
+            <option value="all">All Partys!</option>
+            <option value="kingsCup">Kings Cup!</option>
+            <option value="thumper">Thumper!</option>
+            <option value="straight">Straight Face!</option>
+            <option value="neverEver">Never Have I Ever!</option>
+            <option value="drunkJenga">Drunk Jenga!</option>
+            <option value="flipCup">Flip Cup!</option>
+            <option value="buzz">Buzz!</option>
+            <option value="most">Most Likely!</option>
+            <option value="bite">Bite The Bag!</option>
+            <option value="hip">Attached At The Hip!</option>
+          </select>
+        </div>
 
-   
+     
+          <ul id="partyList"></ul> 
+          <script src="/script/partyscript.js"></script>
+        </div>
 
 
-    
+
+    </main>
+
+    <footer>
+        <div class="drinkCarefully">
+            <img src="./images/drivesafe.png" alt="driveSafe">
+        </div>
+
+        <div class="socialBox">
+            <h2>Contact us!</h2>
+
+            <div class="socialMedia">
+            
+                <ul>
+                    <li><i class="fab fa-facebook-square"></i></li>
+                    <li><i class="fab fa-instagram-square"></i></li>
+                    <li><i class="fab fa-twitter-square"></i></li>
+                    <li><i class="fab fa-pinterest-square"></i></li>
+                    <li><i class="fab fa-github-square"></i></li>
+                </ul>
+                
+            </div>
+        </div>
+
+
+        
+    </footer>    
 </body>
+<script>
+    function toggleMenu(){
+        
+    }
+</script>
 </html>

@@ -38,30 +38,33 @@
     </nav>
 
     <main>
-        <div class="contributtion">
-            <div class="contrib">
-                    <input type="text" placeholder="Enter your name!" />
-                    <input type="text" placeholder="Enter your e-mail!" />
-                    <textarea placeholder="Write your recipe to us!" rows="15" cols="32"></textarea>
-                    <p class="center">
-                        <button id="open-modal">Submit!</button>
-                      </p>
-                      <div id="modal" class="modal">
-                        <div class="modal-inner content center">
-                          <h2>Thank You!</h2>
-                          <p>Your contribution is very important to us!</p>
-                          <button id="close-modal">Close!</button>
-                        </div>
-                      </div>
+        <div class="partyGame">
+            <div class="partyPic">
+                <img src="/images/party.jpg" class="partyPicture" alt="party">
             </div>
-            <div class="contriPic">
-                <img class="imgcont" src="/images/toast_sunshine.jpg" class="contPicture" alt="party">
+
+
+            
+
+        </div>
+
+        <div class="rules">
+            <div class="partyRules">
+            <h1>Never Have I Ever!</h1>
+            <h2>What you need: Drinks!</h2>
+                <p>Never Have I Ever is a great game to know your friends' secrets! You have to share something that you have never done before and the people who have will take a sip of their drink. For example, when I say, "Never have I ever been arrested," all those in the group who have been arrested will have a drink. The key here is to make your friends admit their embarrassing stories so watch out for what you say!</p>
+            <h1>Drunk Jenga!</h1>
+            <h2>What you need: Jenga and Drinks! </h2>
+                <p>Drunk Jenga is like normal Jenga but with funny and crazy challenges written on each of the 54 Jenga blocks. The trick is to pick up one block from the set pile of blocks with one hand and place it on top of the pile. If the stack falls, you chug your drink and pick up two blocks and complete the challenges.</p>
+            <h1>Flip Cup!</h1>
+            <h2>What you need: Cups and Drinks!</h2>
+            <p>Flip Cup is a good starter for a house party. There are two teams competing against each other. Both teams stand on opposite sides of the table and keep their cups with drinks at the edge. Everyone must finish their drink and flip the cup with there fingers to the upside-down position before the next member begins. First team to complete this wins.</p>
+            
             </div>
         </div>
 
 
 
-    <script src="/script/contscript.js"></script>
     </main>
 
     <footer>
@@ -95,3 +98,68 @@
     }
 </script>
 </html>
+
+
+
+
+//
+
+css
+
+
+/* 
+.partyGame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.partyPic {
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.partyPicture {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.rules {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    margin: 10px 10px 10px 10px;
+}
+
+.partyRules {
+    margin: 10px 10px 10px 10px;
+}
+
+.partyRules h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: x-large;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.partyRules h2 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: large;
+    margin: 10px 10px 10px 10px;
+}
+
+.partyRules p {
+    font-size: small;
+    margin: 10px 10px 10px 10px;
+}
+
+.partyRules{
+    text-align: center;
+    padding: 5px;
+    width: 70%;
+} */
