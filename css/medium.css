@@ -1,10 +1,10 @@
 @media only screen and (min-width: 560px) and (max-width:1139px) {
 
  /*Resets iphone and microsoft phone so that they don't change size or orientation*/
-html {
+/* html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-}
+} */
 
 
 body {
@@ -179,6 +179,112 @@ header {
     border-radius: 20px;
 }
 
+
+.contributtion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.contrib {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 250px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+  }
+
+.contriPic {
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contPicture {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.partyGame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    margin: 10px 10px 10px 10px;
+}
+
+.container h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: x-large;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.container h2 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: large;
+    margin: 10px 10px 10px 10px;
+}
+
+.container p {
+    font-size: small;
+    margin: 10px 10px 10px 10px;
+}
+
+img {
+    max-width: 200px;
+}
+
+.imgkings {
+    max-width: 900px;
+}
+
+.imgcont {
+    max-width: 400px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+  }
+
+  .modal-inner {
+    position: fixed;
+    width: 23.7%;
+    height: 10%;
+    background: white;
+    margin-top: 350px;
+    margin-left: 220px;
+  }
+
+
+  button {
+    padding: 10px 83px;
+    background: #6e6a6a;
+    color: #fff;
+    border: transparent;
+    border-radius: 4px;
+    font-size: 1.5rem;
+  }
+
+
 /* Footer configuration instructions*/
 
 footer {
@@ -188,7 +294,9 @@ footer {
     height: 100px;
     background-color: darkslategray;
     text-align: center;
-
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .drinkCarefully {
@@ -198,8 +306,8 @@ footer {
 }
 
 .socialBox{
-    width: 30%;
-    padding-top: 10px;
+    width: 50%;
+    padding-top: 5px;
     font-size: large;
 }
 
@@ -208,7 +316,7 @@ footer {
     display: inline-block;
     font-size: 30px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 }
@@ -220,11 +328,17 @@ footer {
     width: 100%;
     height: 100%;
 }
+
 .drink1 {
     width: 70%;
     align-items: center;
     justify-content: center;
     }
+.drink1img {
+    max-width: 400px;
+        
+    }
+
 .drink2 {
     width: 70%;
     align-items: center;
@@ -235,6 +349,7 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
 
 .countrySelection h2 {
     font-family: 'Luckiest Guy', cursive;
