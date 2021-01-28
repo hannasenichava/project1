@@ -329,3 +329,15 @@
     font-size: xx-large;
     text-align: center;
 }
+
+.drinkImageContainer {
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+}
+
+.drinkImageContainer img {
+    width: 100%;
+}
