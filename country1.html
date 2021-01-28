@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!--Do not LIE statement (TELLS THE SMARTPHONES TO NOT LIE ABOUT THEIR WIDTH)
     content="width-device-width": report your width as the device width and not a fake number and then set the intial scale as 100% (initial-scale=1)
@@ -16,40 +17,41 @@
     <script src="https://kit.fontawesome.com/91b5cd2881.js" crossorigin="anonymous"></script>
     <title>Country Recipe</title>
 </head>
+
 <body>
 
 
 
     <nav>
-            <ul>
-                <div class="logo">
-                    <a href="index.html"><img src="./images/logo_oficial.png" width="90" height="90" alt="logo"></a>
+        <ul>
+            <div class="logo">
+                <a href="index.html"><img src="./images/logo_oficial.png" width="90" height="90" alt="logo"></a>
+            </div>
+            <div class="navMenu" id="navMenu">
+                <li><a href=index.html>Mainpage</a></li>
+                <li><a href=party.html>Party Games</a></li>
+                <li><a href=contributtion.html>Contributtion</a></li>
+                <li><a href=about.html>About Us!</a></li>
+            </div>
+            <div class="hamburguerDiv">
+                <div class="hamburguerMenu" id="hamburguerMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
-                <div class="navMenu" id="navMenu">
-                    <li><a href=index.html>Mainpage</a></li>
-                    <li><a href=party.html>Party Games</a></li>
-                    <li><a href=contributtion.html>Contributtion</a></li>
-                    <li><a href=about.html>About Us!</a></li>
+            </div>
+            <!--This dropdown menu will be used only for test purposes and will be deleted afterwards-->
+            <div class="languageSelector">
+                <div class="portugalSel">
+                    <img src="/images/portugal.png" onclick="flagFunction(0)" class="portPic" alt="portugal">
                 </div>
-                <div class="hamburguerDiv">
-                    <div class="hamburguerMenu" id="hamburguerMenu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
+                <div class="brasilSel">
+                    <img src="/images/brasil.jpg" onclick="flagFunction(1)" class="brasPic" alt="brasil">
                 </div>
-                <!--This dropdown menu will be used only for test purposes and will be deleted afterwards-->
-                <div class="languageSelector">
-                    <div class="portugalSel">
-                        <img src="/images/portugal.png" onclick="flagFunction(0)" class="portPic" alt="portugal">
-                    </div>
-                    <div class="brasilSel">
-                        <img src="/images/brasil.jpg" onclick="flagFunction(1)" class="brasPic" alt="brasil">
-                    </div>
 
-                </div>
-            </ul>
-              
+            </div>
+        </ul>
+
     </nav>
 
     <div id="selects">
@@ -61,8 +63,8 @@
                 <li><a href=about.html>About Us!</a></li>
             </ul>
         </div>
-        
-        
+
+
     </div>
 
     <main>
@@ -74,7 +76,7 @@
             <div class="nameCountry">
                 <h1>Portugal</h1>
             </div>
-            
+
 
         </div>
 
@@ -87,7 +89,7 @@
                 <div class="title">
                     <h1>Portuguese Sangria</h1>
                 </div>
-                
+
                 <br>
 
                 <h2>Ingredients:</h2>
@@ -115,7 +117,7 @@
                         <li>Enjoy!</li>
                     </ol>
                 </div>
-                
+
 
             </div>
 
@@ -135,7 +137,7 @@
             <h2>Contact us!</h2>
 
             <div class="socialMedia">
-            
+
                 <ul>
                     <li><i class="fab fa-facebook-square"></i></li>
                     <li><i class="fab fa-instagram-square"></i></li>
@@ -143,14 +145,15 @@
                     <li><i class="fab fa-pinterest-square"></i></li>
                     <li><i class="fab fa-github-square"></i></li>
                 </ul>
-                
+
             </div>
         </div>
 
 
-        
+
     </footer>
 
-    <script type="text/javascript" src="/js/pageLoader.js"></script>    
-</body> 
+    <script type="text/javascript" src="/js/pageLoader.js"></script>
+</body>
+
 </html>
