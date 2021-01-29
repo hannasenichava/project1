@@ -1,6 +1,8 @@
-@media only screen and (min-width: 560px) and (max-width:1139px) {
-    /*Resets iphone and microsoft phone so that they don't change size or orientation*/
-    /* html {
+@media only screen and (min-width: 701px) and (max-width:1139px) {
+
+ /*Resets iphone and microsoft phone so that they don't change size or orientation*/
+/* html {
+
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 } */
