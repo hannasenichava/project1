@@ -61,6 +61,12 @@
         width: 40px;
         height: 30px;
     }
+
+    .portugalSel_index{
+        display: inline-block;
+        width: 40px;
+        height: 30px;
+    }
     .portPic {
         width: 40px;
         height: 30px;
@@ -78,6 +84,26 @@
         cursor: pointer;
     }
     .brasilSel {
+        display: inline-block;
+        width: 40px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    .englishSel_index{
+        display: inline-block;
+        width: 40px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    .cubPic {
+        width: 40px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    .cubPic:hover {
+        cursor: pointer;
+    }
+    .cubaSel {
         display: inline-block;
         width: 40px;
         height: 30px;
@@ -341,9 +367,7 @@
         align-items: center;
         justify-content: center;
     }
-    .img {
-        max-width: 400px;
-    }
+   
     .drink2 {
         width: 50%;
         align-items: center;
@@ -378,5 +402,8 @@
     }
     .drinkImageContainer img {
         width: 100%;
+    }
+    .img2 {
+        max-width: 200px;
     }
 }

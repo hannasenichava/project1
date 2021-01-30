@@ -12,6 +12,17 @@ const ptFlag = document.getElementsByClassName("portPic");
 const bzFlag = document.getElementsByClassName("brasPic");
 const indexPT = document.getElementsByClassName("drink1");
 const indexBZ = document.getElementById("Brazil");
+const lang_PT = document.getElementsByClassName("portugalSel_index");
+const lang_EN = document.getElementsByClassName("englishSel_index");
+const anchMain = document.getElementById("anch1");
+const anchMain1 = document.getElementById("anch5");
+const anchParty = document.getElementById("anch2");
+const anchParty2 = document.getElementById("anch6");
+const anchCont = document.getElementById("anch3");
+const anchCont2 = document.getElementById("anch7");
+const anchAbout = document.getElementById("anch4");
+const anchAbout2 = document.getElementById("anch8");
+
 
 let portugal = {
     name: 'Portugal',
@@ -39,10 +50,21 @@ let cuba = {
     name: 'Cuba',
     drink: 'Mojito',
     recipe: ['3 mint leaves', '1/2 ounces simple syrup', '2 ounces white rum', '3/4 ounces lime juice', 'Club soda', 'Garnish: mint sprig', 'Garnish: lime wheel'],
-    direction: ['Lightly muddle the mint with the simple syrup in a shaker', 'Add the rum, lime juice and ice, and give it a brief shake', 'Strain into a highball glass over fresh ice', 'Top with the club soda', 'Garnish with a mint sprig and lime wheel']
+    direction: ['Lightly muddle the mint with the simple syrup in a shaker', 'Add the rum, lime juice and ice, and give it a brief shake', 'Strain into a highball glass over fresh ice', 'Top with the club soda', 'Garnish with a mint sprig and lime wheel'],
+    iconicViewPath: "/images/havanaPicture.jpeg",
+    flagPath: "url(/images/cuba_basic.png)",
+    drinkPicPath: "/images/mojito.jpg",
+    flagSelector: "cubPic"
 }
 
-let countries = [portugal, brazil];
+let PTranslation_index = {
+    navBar: ['Página Principal','Festa','Contribuição','Sobre'],
+    footer_item: 'Contacte-nos',
+    header_item: 'Escolha a bebida'
+}
+
+
+let countries = [portugal, brazil,cuba];
 
 const hamburguerMenu = document.getElementsByClassName("hamburguerMenu");
 let listItemsNav = [];
@@ -89,4 +111,42 @@ hamburguerMenu[0].addEventListener('click', () => {
 
 indexPT[0].addEventListener('click', () => {
     window.location.href = "country1.html"
+})
+
+lang_EN[0].addEventListener('click', () => {
+    console.log("england!")
+    anchMain.innerText = 'Mainpage';
+    anchMain1.innerText = 'Mainpage';
+
+    anchAbout.innerText = 'About Us!';
+    anchAbout2.innerText = 'About Us!';
+
+    anchCont.innerText = 'Contributtion';
+    anchCont2.innerText = 'Contributtion';
+
+    anchParty.innerText = 'Party Games';
+    anchParty2.innerText = 'Party Games';
+
+    document.getElementsByClassName("drinkSelection")[0].innerText = "Drink Selection";
+
+
+})
+
+lang_PT[0].addEventListener('click', () => {
+    console.log("Portuguisich");
+    console.log(anchMain);
+    anchMain.innerHTML = "Página Principal";
+    anchMain1.innerHTML = "Página Principal";
+
+    anchAbout.innerHTML = "Sobre nós!";
+    anchAbout2.innerHTML = "Sobre nós!";
+
+    anchCont.innerHTML = "Contribua";
+    anchCont2.innerHTML = "Contribua";
+
+    anchParty.innerHTML = "Jogos de Festa";
+    anchParty2.innerHTML = "Jogos de Festa";
+
+    document.getElementsByClassName("drinkSelection")[0].innerText = "Escolha a bebida";
+
 })

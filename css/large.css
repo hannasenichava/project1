@@ -48,6 +48,33 @@
         height: 30px;
         margin-left: 10px;
     }
+    .englishSel_index{
+        display: inline-block;
+        width: 40px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    .portugalSel_index{
+        display: inline-block;
+        width: 40px;
+        height: 30px;
+    }
+
+    .cubPic {
+        width: 40px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    .cubPic:hover {
+        cursor: pointer;
+    }
+    .cubaSel {
+        display: inline-block;
+        width: 40px;
+        height: 30px;
+        margin-left: 10px;
+    }
+
     #selects {
         display: none;
     }
@@ -337,4 +364,8 @@
 
 .drinkImageContainer img {
     width: 100%;
+}
+
+.dummyDiv{
+    height: 100px;
 }

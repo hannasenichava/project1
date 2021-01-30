@@ -1,34 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!--Do not LIE statement (TELLS THE SMARTPHONES TO NOT LIE ABOUT THEIR WIDTH)
+    content="width-device-width": report your width as the device width and not a fake number and then set the intial scale as 100% (initial-scale=1)
+    maximum-scale=1 : it's a constraint. will not allow users to zoom in (a well designed web page will never require for the user to zoom in)-->
+    <meta name="viewport" content="width-device-width, initial-scale=1, maximum-scale=1">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
     <link href="css/smalldefault.css" rel="stylesheet" type="text/css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/medium.css" type="text/css" />
+    <link rel="stylesheet" href="css/large.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/91b5cd2881.js" crossorigin="anonymous"></script>
+    <title>Country Recipe</title>
 </head>
+
 <body>
 
-    <div>
-        <header>
 
-        </header>
-    </div>
 
-    <div id="nav">
+    <nav>
         <ul>
-            <li><a href=index.html>Mainpage</a></li>
-            <li><a href=party.html>Party Games</a></li>
-            <li><a href=contributtion.html>Contributtion</a></li>
-            <li><a href=about.html>About Us!</a></li>
+            <div class="logo">
+                <a href="index.html"><img src="./images/logo_oficial.png" width="90" height="90" alt="logo"></a>
+            </div>
+            <div class="navMenu" id="navMenu">
+                <li><a href=index.html id="anch5">Mainpage</a></li>
+                <li><a href=party.html id="anch6">Party Games</a></li>
+                <li><a href=contributtion.html id="anch7">Contributtion</a></li>
+                <li><a href=about.html id="anch8">About Us!</a></li>
+            </div>
+            <div class="hamburguerDiv">
+                <div class="hamburguerMenu" id="hamburguerMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <!--This dropdown menu will be used only for test purposes and will be deleted afterwards-->
+            <div class="languageSelector">
+                <div class="portugalSel_index">
+                    <img src="/images/portugal.png" class="portPic" alt="portugal">
+                </div>
+                <div class="englishSel_index">
+                    <img src="/images/english.png" class="brasPic" alt="brasil">
+                </div>
+
+            </div>
         </ul>
+
+    </nav>
+
+    <div id="selects">
+        <div id=divInsideSelects>
+            <ul id="newNav">
+                <li><a href=index.html id="anch1">Mainpage</a></li>
+                <li><a href=party.html id="anch2">Party Games</a></li>
+                <li><a href=contributtion.html id="anch3">Contributtion</a></li>
+                <li><a href=about.html id="anch4">About Us!</a></li>
+            </ul>
+        </div>
+
+
     </div>
-    <br/>
 
-    
-
-   
+    <main>
 
 
-    
+    </main>
+
+    <footer>
+        <div class="drinkCarefully">
+            <img src="./images/drivesafe.png" alt="driveSafe">
+        </div>
+
+        <div class="socialBox">
+            <h2>Contact us!</h2>
+
+            <div class="socialMedia">
+
+                <ul>
+                    <li><i class="fab fa-facebook-square"></i></li>
+                    <li><i class="fab fa-instagram-square"></i></li>
+                    <li><i class="fab fa-twitter-square"></i></li>
+                    <li><i class="fab fa-pinterest-square"></i></li>
+                    <li><i class="fab fa-github-square"></i></li>
+                </ul>
+
+            </div>
+        </div>
+
+
+
+    </footer>
+
+    <script type="text/javascript" src="/js/pageLoader.js"></script>
 </body>
+
 </html>

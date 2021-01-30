@@ -113,7 +113,7 @@ const hip = [
         p.innerText = king.rules;
         imgkings.src = king.imgkings;
         imgkings.classList.add("imgkings")
-
+        img.classList.add("img2");
         // fzr target da div container e todos os apends h1,h2 e p.
 
         partyLi.appendChild(li);
@@ -141,7 +141,7 @@ const hip = [
             h1.innerText = nev.name;
             h2.innerText = nev.recipe;
             p.innerText = nev.rules;
-    
+            img.classList.add("img2");
             // fzr target da div container e todos os apends h1,h2 e p.
     
             partyLi.appendChild(li);
@@ -168,7 +168,8 @@ const hip = [
             h1.innerText = jen.name;
             h2.innerText = jen.recipe;
             p.innerText = jen.rules;
-    
+            img.classList.add("img2");
+
             partyLi.appendChild(li);
             partyLi.appendChild(img);
             partyLi.appendChild(h1);
@@ -192,6 +193,7 @@ const hip = [
             h1.innerText = thump.name;
             h2.innerText = thump.recipe;
             p.innerText = thump.rules;
+            img.classList.add("img2");
     
             // fzr target da div container e todos os apends h1,h2 e p.
     
@@ -219,7 +221,8 @@ const hip = [
                 h1.innerText = strai.name;
                 h2.innerText = strai.recipe;
                 p.innerText = strai.rules;
-        
+                img.classList.add("img2");
+
                 // fzr target da div container e todos os apends h1,h2 e p.
         
                 partyLi.appendChild(li);
@@ -246,6 +249,7 @@ const hip = [
             h1.innerText = fli.name;
             h2.innerText = fli.recipe;
             p.innerText = fli.rules;
+            img.classList.add("img2");
 
             partyLi.appendChild(li);
             partyLi.appendChild(img);
@@ -270,6 +274,7 @@ const hip = [
             h1.innerText = buz.name;
             h2.innerText = buz.recipe;
             p.innerText = buz.rules;
+            img.classList.add("img2");
 
             partyLi.appendChild(li);
             partyLi.appendChild(img);
@@ -294,6 +299,7 @@ const hip = [
             h1.innerText = mos.name;
             h2.innerText = mos.recipe;
             p.innerText = mos.rules;
+            img.classList.add("img2");
 
             partyLi.appendChild(li);
             partyLi.appendChild(img);
@@ -318,6 +324,7 @@ const hip = [
             h1.innerText = bit.name;
             h2.innerText = bit.recipe;
             p.innerText = bit.rules;
+            img.classList.add("img2");
 
             partyLi.appendChild(li);
             partyLi.appendChild(img);
@@ -342,6 +349,7 @@ const hip = [
             h1.innerText = hi.name;
             h2.innerText = hi.recipe;
             p.innerText = hi.rules;
+            img.classList.add("img2");
 
             partyLi.appendChild(li);
             partyLi.appendChild(img);
@@ -368,6 +376,7 @@ const hip = [
             h1.innerText = pts.name;
             h2.innerText = pts.recipe;
             p.innerText = pts.rules;
+            img.classList.add("img2");
 
             partyLi.appendChild(li);
             partyLi.appendChild(img);
