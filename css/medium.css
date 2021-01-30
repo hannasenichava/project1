@@ -1,6 +1,7 @@
 @media only screen and (min-width: 720px) and (max-width:1139px) {
     /*Resets iphone and microsoft phone so that they don't change size or orientation*/
     /* html {
+
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 } */
@@ -310,6 +311,7 @@
         text-align: center;
         padding-top: 10px;
         padding-bottom: 30px;
+        position: fixed;
     }
     .drinkCarefully {
         text-align: center;
@@ -331,3 +333,21 @@
     }
 
 
+
+.drink1text {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.drinkImageContainer {
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+}
+
+.drinkImageContainer img {
+    width: 100%;
+}
