@@ -47,6 +47,7 @@ let listItemsNav = [];
 //const hamburguerMenu = document.getElementById("hamburguerMenu");
 
 console.log(hamburguerMenu);
+console.log(document.getElementsByClassName("hamburguerDiv"));
 let count = 1;
 
 function flagFunction(arrayPosition){

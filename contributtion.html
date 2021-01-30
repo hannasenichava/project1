@@ -18,24 +18,48 @@
 </head>
 <body>
 
-    <nav onclick="toggleMenu();">
+    <nav>
         <ul>
             <div class="logo">
                 <a href="index.html"><img src="./images/logo_oficial.png" width="90" height="90" alt="logo"></a>
             </div>
-            <div class="navMenu">
+            <div class="navMenu" id="navMenu">
                 <li><a href=index.html>Mainpage</a></li>
                 <li><a href=party.html>Party Games</a></li>
                 <li><a href=contributtion.html>Contributtion</a></li>
                 <li><a href=about.html>About Us!</a></li>
             </div>
+            <div class="hamburguerDiv">
+                <div class="hamburguerMenu" id="hamburguerMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <!--This dropdown menu will be used only for test purposes and will be deleted afterwards-->
+            <div class="languageSelector">
+                <div class="portugalSel">
+                    <img src="/images/portugal.png" onclick="flagFunction(0)" class="portPic" alt="portugal">
+                </div>
+                <div class="brasilSel">
+                    <img src="/images/brasil.jpg" onclick="flagFunction(1)" class="brasPic" alt="brasil">
+                </div>
+
+            </div>
         </ul>
-        <div class="hamburguerMenu" onClick="toggleMenu();">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </nav>
+          
+</nav>
+
+<div id="selects">
+    <div id=divInsideSelects>
+        <ul id="newNav">
+            <li><a href=index.html>Mainpage</a></li>
+            <li><a href=party.html>Party Games</a></li>
+            <li><a href=contributtion.html>Contributtion</a></li>
+            <li><a href=about.html>About Us!</a></li>
+        </ul>
+    </div>
+</div>
 
     <main>
         <div class="contributtion">
@@ -47,11 +71,9 @@
                         <button id="open-modal">Submit!</button>
                       </p>
                       <div id="modal" class="modal">
-                        <div class="modal-inner content center">
-                          <h2>Thank You!</h2>
+                          <p>Thank You!<p>
                           <p>Your contribution is very important to us!</p>
                           <button id="close-modal">Close!</button>
-                        </div>
                       </div>
             </div>
             <div class="contriPic">
@@ -60,8 +82,8 @@
         </div>
 
 
-
-    <script src="/script/contscript.js"></script>
+        <script src="/script/contscript.js"></script>
+        <script type="text/javascript" src="/js/pageLoader.js"></script>  
     </main>
 
     <footer>
@@ -89,9 +111,5 @@
         
     </footer>    
 </body>
-<script>
-    function toggleMenu(){
-        
-    }
-</script>
+
 </html>

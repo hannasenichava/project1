@@ -105,6 +105,8 @@ const hip = [
         const p = document.createElement('p');
         const imgkings = document.createElement('img');
 
+
+
         img.src = king.img;
         h1.innerText = king.name;
         h2.innerText = king.recipe;
@@ -353,29 +355,36 @@ const hip = [
     {
         const partys = [...kings, ...never, ...jenga, ...thumper, ...straight,  ...flip, ...buzz, ...most, ...bite, ...hip]
         partys.map(pts => {
+
+
             const li = document.createElement('li');
             const div = document.getElementById('container')
             const img = document.createElement('img');
             const h1 = document.createElement('h1');
             const h2 = document.createElement('h2');
             const p = document.createElement('p');
-            const imgkings = document.createElement('img');
-
+            
             img.src = pts.img;
             h1.innerText = pts.name;
             h2.innerText = pts.recipe;
             p.innerText = pts.rules;
-            imgkings.src = pts.imgkings;
-            imgkings.classList.add("imgkings")
 
             partyLi.appendChild(li);
             partyLi.appendChild(img);
             partyLi.appendChild(h1);
             partyLi.appendChild(h2);
             partyLi.appendChild(p);
-            partyLi.appendChild(imgkings);
+
+            if (pts.name === "Kings Cups!") {
+                const imgkings = document.createElement('img');
+                imgkings.src = pts.imgkings;
+                imgkings.classList.add("imgkings");
+                partyLi.appendChild(imgkings);
+            }
+            
             
     
         })
     }
 })
+
