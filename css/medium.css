@@ -102,7 +102,24 @@
         width: 20%;
         background-color: transparent;
     }
+
+    .modal {
+        position: fixed;
+        background: rgba(0, 0, 0, 0.7);
+        display: none;
+      }
+      
+      
+    
+    .modal-inner p {
+     
+        font-family: 'Luckiest Guy', cursive;
+        font-size: medium;
+        text-align: center; 
+    }
+
     /* Main configuration instructions*/
+
     .countryName {
         display: flex;
         justify-content: center;
@@ -228,23 +245,7 @@
     .imgcont {
         max-width: 400px;
     }
-    .modal {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.7);
-        display: none;
-    }
-    .modal-inner {
-        position: fixed;
-        width: 23.7%;
-        height: 10%;
-        background: white;
-        margin-top: 350px;
-        margin-left: 220px;
-    }
+
     button {
         padding: 10px 83px;
         background: #6e6a6a;
@@ -253,15 +254,60 @@
         border-radius: 4px;
         font-size: 1.5rem;
     }
+
+    .drinksRange {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .drink1 {
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .drink2 {
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .drink3 {
+        width: 50%;
+        align-items: center;
+        justify-content: 
+    }
+
+    .drinkSelection {
+        font-family: 'Luckiest Guy', cursive;
+        font-size: large;
+        margin: 10px 10px 10px 10px;
+    }
+    
+    .container p {
+    font-size: small;
+    margin: 10px 10px 10px 10px;
+}
+
+    .drink1img {
+    max-width: 200px;
+    }
+
+    .drink1text {
+        font-family: 'Luckiest Guy', cursive;
+        font-size: xx-large;
+        text-align: center;
+    }
+
     /* Footer configuration instructions*/
     footer {
-        display: flex;
+        position: fixed;
         clear: both;
         width: 100%;
         height: 100px;
         background-color: darkslategray;
         text-align: center;
-        bottom: 0;
         padding-top: 10px;
         padding-bottom: 30px;
     }
@@ -282,167 +328,6 @@
         text-align: center;
         padding-top: 5px;
     }
-}
-
-.drinksRange {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.drink1 {
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-}
-
-.img {
-    max-width: 400px;
-}
-
-.drink2 {
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-}
-
-.drink3 {
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-}
-
-.countrySelection h2 {
-    font-family: 'Luckiest Guy', cursive;
-    font-size: xx-large;
-    text-align: center;
-}
-
-.drinkSelection {
-    font-family: 'Luckiest Guy', cursive;
-    font-size: large;
-    margin: 10px 10px 10px 10px;
-}
-
-.container p {
-    font-size: small;
-    margin: 10px 10px 10px 10px;
-}
-
-img {
-    max-width: 200px;
-}
-
-.imgkings {
-    max-width: 900px;
-}
-
-.imgcont {
-    max-width: 400px;
-}
-
-.modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    display: none;
-  }
-
-  .modal-inner {
-    position: fixed;
-    width: 23.7%;
-    height: 10%;
-    background: white;
-    margin-top: 350px;
-    margin-left: 220px;
-  }
-
-
-  button {
-    padding: 10px 83px;
-    background: #6e6a6a;
-    color: #fff;
-    border: transparent;
-    border-radius: 4px;
-    font-size: 1.5rem;
-  }
-
-  .drinksRange {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-}
-
-.drink1 {
-    width: 70%;
-    align-items: center;
-    justify-content: center;
-    }
-    
-.drink1img {
-    max-width: 200px;
     }
 
-.drink2 {
-    width: 70%;
-    align-items: center;
-    justify-content: center;
-}
-.drink3 {
-    width: 70%;
-    align-items: center;
-    justify-content: center;
-}
 
-
-.countrySelection h2 {
-    font-family: 'Luckiest Guy', cursive;
-    font-size: xx-large;
-    text-align: center;
-}
-
-
-
-/* Footer configuration instructions*/
-
-footer {
-    display: flex;
-    clear: both;
-    width: 100%;
-    height: 100px;
-    background-color: darkslategray;
-    text-align: center;
-    bottom: 0;
-    padding-top: 10px;
-    padding-bottom: 30px;
-}
-
-.drinkCarefully {
-    text-align: center;
-    width: 70%;
-    padding-top: 20px;
-}
-
-.socialBox{
-    width: 50%;
-    padding-top: 5px;
-    font-size: large;
-}
-
-.socialMedia li {
-    list-style: none;
-    display: inline-block;
-    font-size: 30px;
-    text-align: center;
-}
-
-.drink1text {
-    font-family: 'Luckiest Guy', cursive;
-    font-size: xx-large;
-    text-align: center;
-}

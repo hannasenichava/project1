@@ -265,6 +265,134 @@ header {
     border-radius: 20px;
 }
 
+.contributtion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.contrib {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 250px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+}
+.contriPic {
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.contPicture {
+    width: 100%;
+    border-radius: 20px;
+}
+.partyGame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    margin: 10px 10px 10px 10px;
+}
+.container h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: x-large;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+.container h2 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: large;
+    margin: 10px 10px 10px 10px;
+}
+.container p {
+    font-size: small;
+    margin: 10px 10px 10px 10px;
+}
+img {
+    max-width: 200px;
+}
+.imgkings {
+    max-width: 400px;
+}
+.imgcont {
+    max-width: 230px;
+}
+
+button {
+    padding: 10px 83px;
+    background: #6e6a6a;
+    color: #fff;
+    border: transparent;
+    border-radius: 4px;
+    font-size: 1.5rem;
+}
+
+.modal {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+  }
+  
+  
+
+.modal-inner p {
+ 
+    font-family: 'Luckiest Guy', cursive;
+    font-size: medium;
+    text-align: center; 
+}
+
+.drinksRange {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.drink1 {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.drink2 {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.drink3 {
+    width: 50%;
+    align-items: center;
+    justify-content: 
+}
+
+.drinkSelection {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: large;
+    margin: 10px 10px 10px 10px;
+}
+
+.container p {
+font-size: small;
+margin: 10px 10px 10px 10px;
+}
+
+.drink1img {
+max-width: 200px;
+}
+
 
 /* Footer configuration instructions*/
 
